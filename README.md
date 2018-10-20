@@ -32,3 +32,6 @@ Examples of code that appeared in the study of this architecture.
   - Example work with HD44780 LCD
   - Example work with Siemens A51 LCD
   - Demo project. Clock on HD44780. Clock crystal connected to XTAL PINs, Timer2 work in asynchronous mode and counts time. Time shows on     LCD. In LCD draws big symbols.
+
+8. Examples work with UART/USART interface
+  - Demo project. Realized serial connection with PC like a Arduino's Serial.Print. I think than it very good for debugging on MCU without JTAG
