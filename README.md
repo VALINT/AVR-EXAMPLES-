@@ -34,4 +34,7 @@ Examples of code that appeared in the study of this architecture.
   - Demo project. Clock on HD44780. Clock crystal connected to XTAL PINs, Timer2 work in asynchronous mode and counts time. Time shows on     LCD. In LCD draws big symbols.
 
 8. Examples work with UART/USART interface
-  - Demo project. Realized serial connection with PC like a Arduino's Serial.Print. I think than it very good for debugging on MCU without JTAG
+  - Demo project. Realized serial connection with PC like a Arduino's Serial.Print. I think than it very good for debugging on MCU without JTAG or onewire
+  
+9. Examples work with SD card
+  - Example work with SD card, used FAT32 file system. Plays *.WAV files from SD
