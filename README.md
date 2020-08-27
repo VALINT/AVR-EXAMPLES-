@@ -8,8 +8,10 @@ Examples of code that appeared in the study of this architecture.
   - Slider with LEDs.
 
 2. Simple examle work with I/O ports in input mode 
-  - Buttons (Reaction on pushed button).
-  
+  - Simple_Buttons (Reaction on pushed button).
+  - Buttons - Simple structure and function who handle short and long click.
+    Example of using is in a Saturn2 project. 
+
 3. Example work with PWM and RGB LED
   - RGB LED controled by PWM signal.
   
@@ -38,3 +40,11 @@ Examples of code that appeared in the study of this architecture.
   
 9. Examples work with SD card
   - Example work with SD card, used FAT32 file system. Plays *.WAV files from SD
+
+10. Example work with hardware interfaces
+
+11. Example work with RTC
+  - In current time only for DS3231
+
+12. Example work with DHT11/DHT22
+
