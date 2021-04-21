@@ -48,3 +48,5 @@ Examples of code that appeared in the study of this architecture.
 
 12. Example work with DHT11/DHT22
 
+13. Simple example of work with MAX7219.
+  - Only with 8x8 led matrix. Can handle 1 - 4 matrixes.
