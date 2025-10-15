@@ -1,6 +1,6 @@
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 3.11)
 # Project name
-project("slider_led" VERSION 1.0)
+project("slider_led")
 
 # Product filename
 set(PRODUCT_NAME slider_led)
@@ -10,6 +10,7 @@ set(F_CPU 8000000UL)    # CPU frequency
 set(MCU atmega8)        # CPU type
 
 set(PROG_TYPE usbasp)   # Programer type
+
 
 # Use AVR GCC toolchain
 set(CMAKE_SYSTEM_NAME Generic)

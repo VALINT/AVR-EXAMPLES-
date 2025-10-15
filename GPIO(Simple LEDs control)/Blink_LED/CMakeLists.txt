@@ -1,4 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
+
+#set(CMAKE_DEPFILE_FLAGS_LINK "")
+
 # Project name
 project("blink_led" VERSION 1.0)
 
@@ -22,7 +25,6 @@ add_definitions(
     -DF_CPU=${F_CPU}
 )
 # mmcu MUST be passed to bot the compiler and linker, this handle the linker
-set(CMAKE_EXPERIMENTAL_PER_TARGET_DEPENDENCY_INFO OFF)
 set(CMAKE_EXE_LINKER_FLAGS -mmcu=${MCU})
 
 add_compile_options(
@@ -48,6 +50,7 @@ add_compile_options(
     -fno-split-wide-types
     -fno-tree-scev-cprop
 )
+
 file(GLOB SRC_FILES "src/*.c") # Load all files in src folder
 
 # Create one target

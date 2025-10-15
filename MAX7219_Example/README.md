@@ -1,4 +1,4 @@
-# LED Slider example
+# MAX7219 LED MATRIX example
 
 ## How to build:
 
