@@ -1,5 +1,9 @@
 # MAX7219 LED MATRIX example
 
+## How it looks like
+
+![til](./vid/max_blink.gif)
+
 ## How to build:
 
 avr-gcc and avr-libc should be previously installed using `sudo apt install` command
@@ -9,7 +13,7 @@ avr-gcc and avr-libc should be previously installed using `sudo apt install` com
     > cmake ../
     
     > cmake --build . #to build
-    > avrdude -c usbasp -p atmega8 -U flash:w:slider_led.hex #to flash
+    > avrdude -c usbasp -p atmega8 -U flash:w:blink_led.hex #to flash
     
 or
     
